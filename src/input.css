@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social-media-btn {
+  @apply dark:text-peach text-light-brown font-medium p-4 border dark:border-peach border-light-brown rounded-lg text-center dark:hover:bg-peach/5 hover:bg-oren/20 bg-peach/0 duration-300 ease-in-out flex items-center justify-center gap-x-2;
+}
+
+#orange-logo {
+  transition: transform 0.5s ease-out;
+}
+
+.nav-link {
+  @apply text-sm relative text-light-brown dark:text-peach after:duration-300  after:ease-in-out after:h-0 after:w-0 hover:after:w-1/3 after:-bottom-1 after:left-0 after:absolute hover:after:border-b dark:hover:after:border-peach hover:after:border-light-brown font-medium;
+}
+
+.footer-link {
+  @apply text-sm relative text-light-brown dark:text-peach/50 after:duration-300  after:ease-in-out after:h-0 after:w-0 hover:after:w-1/3 after:-bottom-1 after:left-0 after:absolute hover:after:border-b dark:hover:after:border-peach/50 hover:after:border-light-brown;
+}
+
+.showcase-item {
+  @apply overflow-hidden rounded-xl hover:scale-90 duration-300 ease-in-out;
+}
+
+.work-item {
+  @apply w-full duration-300 ease-in-out p-4 dark:hover:bg-peach/5 hover:bg-oren/25 rounded-xl flex justify-between font-medium;
+}
+
+.contact-btn {
+  @apply w-full p-4 hover:px-8 duration-300 ease-in-out rounded-xl font-bold flex items-center gap-x-2;
+}
+
+.sliding {
+  @apply -top-3/4;
+}
+
+.link__sosmed-link {
+  @apply p-4 dark:hover:bg-peach/5 hover:bg-oren/25 rounded-xl duration-300 ease-in-out dark:text-peach text-light-brown;
+}
+
+.link__link-item {
+  @apply w-3/4 md:w-2/4 text-sm md:text-base border dark:text-peach text-brown border-light-brown/50 duration-300 ease-in-out p-4 rounded-xl hover:bg-oren/25 dark:hover:bg-peach/5 flex justify-between items-center font-medium;
+}
+
+.link__arrow-up {
+  @apply text-light-brown w-4;
+}
+
+break {
+  flex-basis: 100%;
+  width: 0;
+  border: 1px solid red;
+}
