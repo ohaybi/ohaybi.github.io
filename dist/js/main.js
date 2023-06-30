@@ -35,5 +35,5 @@ window.onscroll = function () {
 
 function scrollRotate() {
   let image = document.getElementById("orange-logo");
-  image.style.transform = "rotate(" + window.pageYOffset / 5 + "deg)";
+  image.style.transform = "rotate(" + window.pageYOffset / 3 + "deg)";
 }
