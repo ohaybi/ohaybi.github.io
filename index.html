@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdillah Mufti ― User Interface Designer</title>
+
+    <!-- Meta HTML -->
+    <meta name="description" content="Hi, I'm Abdillah Mufti, creative ui designer based in Indonesia." />
+    <meta name="keywords" content="UI/UX, UI, User Interface, Design, Web Design, Portfolio, Freebies, Free Design, Design Assets, Indonesia" />
+    <meta name="author" content="Abdillah Mufti" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Abdillah Mufti ― User Interface Designer" />
+    <meta property="og:description" content="Hi, I'm Abdillah Mufti, creative ui designer based in Indonesia." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://ohaybi.github.io/dist/img/ohaybi-thumbnail.webp" />
+    <link rel="canonical" href="https://ohaybi.github.io" />
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Abdillah Mufti ― User Interface Designer" />
+    <meta name="twitter:description" content="Hi, I'm Abdillah Mufti, creative ui designer based in Indonesia." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ohaybi" />
+    <meta name="twitter:creator" content="@ohaybi" />
+    <meta name="twitter:image" content="https://ohaybi.github.io/dist/img/ohaybi-thumbnail.webp" />
+    <meta name="twitter:domain" content="https://ohaybi.github.io" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY3D3D1RKM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XY3D3D1RKM");
+    </script>
+
+    <link rel="stylesheet" href="./dist/css/tailwindcss.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-putih text-hitam font-inter selection:bg-oren selection:text-putih">
+    <!-- Main App -->
+    <div class="main-app">
+      <!-- navbar -->
+      <nav id="navbar" class="sticky top-4 md:top-8 z-[99]">
+        <div class="container md:mt-8 mt-4 flex items-center justify-center">
+          <!-- Nav Link -->
+          <ul class="relative">
+            <li class="-z-10">
+              <!-- Ohaybi Logo -->
+              <img id="orange-logo" class="orange-logo" src="dist/img/logo-orange.svg" alt="Ohaybi Logo" />
+            </li>
+            <ul class="flex justify-between items-center bg-putih/65 p-[4px] rounded-full backdrop-blur-sm shadow-sm">
+              <li><a href="index.html" class="nav-link">home</a></li>
+              <li><a href="work.html" class="nav-link">work</a></li>
+              <li><a href="freebies.html" class="nav-link">freebies</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- About Me and Follow Me Column -->
+      <div class="container mx-auto max-w-sm md:max-w-3xl columns-1 md:columns-2 gap-2 md:mt-20 mt-10">
+        <!-- About Me -->
+        <div id="about" class="flex">
+          <img src="dist/img/pfp.webp" alt="Profile Picture" class="bg-oren rounded-full h-14 md:h-16" onContextMenu="return false;" />
+          <div class="aboutme-text flex flex-col ml-4">
+            <h1 class="font-bold text-base md:text-xl">Oh, hay! 👋</h1>
+            <p class="mt-2 mb-2 md:mb-4 text-sm md:text-base capitalize font-medium">I'm Abdillah Mufti, creative UI designer based in Indonesia.</p>
+            <span>
+              <a href="mailto:aabimufti@gmail.com" target="_blank" class="hover:text-oren duration-300 text-sm md:text-base">✉️ aabimufti@gmail</a>
+            </span>
+          </div>
+        </div>
+        <!-- About Me end -->
+
+        <!-- Follow Me -->
+        <div id="followme" class="flex md:block md:w-1/2 mx-auto break-before-auto md:break-before-column my-8 md:my-0">
+          <img src="dist/img/icon/click.svg" alt="Cursor Icon" class="animate-pulse w-8 relative md:-top-0 md:-left-8 hidden md:block" />
+          <ul class="flex flex-wrap md:flex-col p-1 bg-hitam rounded-lg shadow-lg">
+            <li><a href="https://www.instagram.com/ohaybi" target="_blank" class="followme-link">Instagram</a></li>
+            <li><a href="https://www.behance.net/ohaybi" target="_blank" class="followme-link">Behance</a></li>
+            <li><a href="https://dribbble.com/ohaybi" target="_blank" class="followme-link">Dribbble</a></li>
+            <li><a href="https://github.com/ohaybi" target="_blank" class="followme-link">Github</a></li>
+          </ul>
+        </div>
+        <!-- Follow Me end -->
+      </div>
+      <!-- About Me and Follow Me Column -->
+
+      <!-- Work -->
+      <div id="work" class="container w-full max-w-4xl mt-8 md:mt-20">
+        <div class="section-heading">
+          <h1 class="text-lg font-bold"><span class="text-oren">/</span>work</h1>
+          <span class="text-xs mt-2">Selected project</span>
+        </div>
+        <div id="project-grid" class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="https://www.behance.net/gallery/171184279/Bagisaku-Student-Saving-App" target="_blank" class="project-item group bg-gradient-to-b from-[#2B61E3] to-[#18357D]">
+            <!-- <span class="text-putih font-bold text-xl absolute">Bagisaku</span> -->
+            <img src="dist/img/project/bagisaku-title.webp" alt="Project: Bagisaku-Student Saving App" class="project-title" />
+            <img src="dist/img/project/bagisaku-mockup.webp" alt="Project: Bagisaku-Student Saving App" class="project-img" />
+          </a>
+          <a href="https://www.behance.net/gallery/173395395/Redesign-GueSehat-Mobile-App-UIUX-Case-Study" target="_blank" class="project-item group bg-gradient-to-b from-[#00B3E3] to-[#00637D]">
+            <img src="dist/img/project/guesehat-title.webp" alt="Project: Redesign GueSehat App" class="project-title" />
+            <img src="dist/img/project/guesehat-mockup.webp" alt="Project: Redesign GueSehat App" class="project-img" />
+          </a>
+          <a href="index.html" class="project-item group bg-gradient-to-b from-[#FD5D2C] to-[#97381A]">
+            <img src="dist/img/project/ohaybi-title.webp" alt="Project: Ohaybi-Portfolio Website" class="project-title" />
+            <img src="dist/img/project/Ohaybi.webp" alt="Project: Ohaybi-Portfolio Website " class="project-img" />
+          </a>
+          <a href="https://takata.vercel.app/" target="_blank" class="project-item group bg-gradient-to-b from-[#A8FF35] to-[#659920]">
+            <img src="dist/img/project/takata-title.webp" alt="Project: Takata-Microcopy Website" class="project-title" />
+            <img src="dist/img/project/Takata.webp" alt="Project: Takata-Microcopy Website" class="project-img" />
+          </a>
+        </div>
+      </div>
+      <!-- Work end -->
+
+      <!-- View All Project & Download CV -->
+      <div id="viewproject-cv" class="sticky bot-8 container max-w-4xl md:mt-4 mt-2 flex items-center justify-end">
+        <ul class="flex items-center gap-x-4 bg-hitam px-1 py-2 rounded-lg shadow-lg">
+          <li>
+            <a href="#" class="text-putih rounded-md text-xs md:text-sm font-medium py-2 px-4 bg-hitam hover:bg-oren"> View All </a>
+          </li>
+          <li class="text-putih/50 text-xs">/</li>
+          <li>
+            <a href="#" class="text-putih rounded-md text-xs md:text-sm font-medium py-2 px-4 bg-hitam hover:bg-oren"> Download CV </a>
+          </li>
+        </ul>
+      </div>
+      <!-- View All Project & Download CV end -->
+
+      <!-- Design Gallery -->
+      <!-- <div id="gallery" class="container w-full max-w-4xl mt-8 md:mt-20 relative">
+        <div id="gallery-grid" class="mt-4 grid grid-cols-3 md:grid-cols-5 gap-4 bg-oren/10 rounded-lg p-2">
+          <div class="flex flex-col items-start justify-center p-2">
+            <h1 class="text-sm md:text-lg font-bold"><span class="text-oren">/</span>exploration</h1>
+            <span class="text-xs md:text-sm">My latest dribbble shots.</span>
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-readup.webp" alt="Project: Bagisaku-Student Saving App" class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-christmas-tree.webp" alt="Project: Redesign GueSehat App" class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-pargoy.webp" alt="Project: Takata-Microcopy Website" class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-pc-desktop.webp" alt="Project: Ohaybi-Portfolio Website " class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-christmas-tree.webp" alt="Project: Redesign GueSehat App" class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-pargoy.webp" alt="Project: Takata-Microcopy Website" class="gallery-img" />
+          </div>
+          <div class="gallery-item group">
+            <img src="dist/img/showcase-pc-desktop.webp" alt="Project: Ohaybi-Portfolio Website " class="gallery-img" />
+          </div>
+        </div>
+      </div> -->
+      <!-- Design Gallery end -->
+
+      <!-- Contact -->
+      <div id="Contact">
+        <div class="container w-full mt-16 flex flex-col justify-center items-center">
+          <h1 class="uppercase text-6xl md:text-8xl font-black text-hitam text-center">
+            cont<br />
+            act<br />
+            me
+          </h1>
+          <h1 class="animate-bounce uppercase text-6xl md:text-8xl font-black text-hitam/10 text-center mt-8">↓</h1>
+        </div>
+        <div class="container max-w-4xl mt-8 text-center">
+          <div class="flex flex-col md:flex-row items-center justify-center gap-2 static right-0 bottom-0">
+            <a href="https://wa.me/+6285156027627" target="_blank" class="text-oren border border-oren backdrop-blur-sm font-semibold px-10 md:py-4 py-8 rounded-full">+6285156027627</a>
+            <a href="mailto:aabimufti@gmail.com" target="_blank" class="text-putih bg-oren backdrop-blur-sm font-semibold px-10 md:py-4 py-8 rounded-full">aabimufti@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <!-- Contact end -->
+
+      <!-- Footer -->
+      <footer id="footer" class="bg-gradient-to-t from-oren/20 to-oren/0">
+        <div class="container md:max-w-4xl max-w-sm py-20">
+          <ul class="flex flex-col md:flex-row justify-between items-center text-light-brown dark:text-peach/50 text-sm gap-4">
+            <li>
+              <span
+                >Last Update <br />
+                — June 2023</span
+              >
+            </li>
+            <ul class="flex flex-col md:flex-row justify-between items-center gap-4">
+              <ul class="flex items-center gap-4">
+                <li><a href="link.html" class="footer-link">🔗 link</a></li>
+                <li><span class="text-hitam/50">/</span></li>
+                <li><a href="#" class="footer-link">🔖 library</a></li>
+                <li><span class="text-hitam/50">/</span></li>
+                <li><button id="support-link" class="footer-link">💸 support</button></li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </footer>
+      <!-- Footer End -->
+
+      <!-- Support Popup -->
+      <div id="support-popup" class="support-popup fixed -z-30 top-0 right-0 bottom-0 left-0 flex items-center justify-center scale-0 opacity-50 duration-300 ease-in-out origin-bottom">
+        <div class="container w-auto h-full md:w-full md:h-auto py-20 mx-auto bg-abu/25 rounded-3xl backdrop-blur-3xl">
+          <button id="close-popup" class="absolute top-4 right-8 font-black text-4xl text-red-600 hover:scale-75 duration-300">×</button>
+          <div class="support-popup-content flex flex-col items-center justify-center gap-4">
+            <h1 class="text-xl md:text-2xl font-bold">Thank you! 💯</h1>
+            <span class="text-xs md:text-base text-center">Support me to create more and more free design assets.</span>
+            <img src="dist/img/qris.webp" alt="QRIS Image" class="w-3/4 md:w-1/4 rounded-2xl overflow-hidden" />
+          </div>
+        </div>
+      </div>
+      <!-- Support Popup End -->
+
+      <!-- Custom Cursor -->
+      <div class="custom-cursor fixed duration-1000 ease-out p-12 md:p-24 -translate-y-1/2 -translate-x-1/2 rounded-full bg-oren border-[8px] border-purple-500 blur-[80px] md:blur-[100px] -z-20 opacity-60"></div>
+      <!-- Custom Cursor end -->
+    </div>
+    <!-- Main App end -->
+
+    <!-- Main JS -->
+    <script src="./dist/js/main.js"></script>
+    <script src="./dist/js/dribbble-api.js"></script>
+  </body>
+</html>

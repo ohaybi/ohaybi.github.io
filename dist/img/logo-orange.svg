@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 648">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ef4923;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g>
+      <g id="_x3C_Radial_Repeat_x3E_">
+        <path class="cls-1" d="M616.37,431.61c-61.08,61.08-357.69,23.26-174.48-174.48,183.21-197.75,252.49,96.48,174.48,174.48Z"/>
+      </g>
+      <g id="_x3C_Radial_Repeat_x3E_-2" data-name="_x3C_Radial_Repeat_x3E_">
+        <path class="cls-1" d="M216.39,616.36c-61.08-61.08-23.26-357.69,174.48-174.48,197.75,183.21-96.48,252.49-174.48,174.48Z"/>
+      </g>
+      <g id="_x3C_Radial_Repeat_x3E_-3" data-name="_x3C_Radial_Repeat_x3E_">
+        <path class="cls-1" d="M31.63,216.39c61.08-61.08,357.69-23.26,174.48,174.48C22.91,588.62-46.37,294.4,31.63,216.39Z"/>
+      </g>
+      <g id="_x3C_Radial_Repeat_x3E_-4" data-name="_x3C_Radial_Repeat_x3E_">
+        <path class="cls-1" d="M431.6,31.63c61.08,61.08,23.26,357.69-174.48,174.48C59.38,22.91,353.6-46.37,431.6,31.63Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#orange-logo {
+  transition: transform 1s ease-out;
+}
+
+.orange-logo {
+  @apply md:w-10 w-9 absolute -top-3 -left-3 md:-top-4 md:-left-4;
+}
+
+.nav-link {
+  @apply flex text-xs font-semibold px-3 py-2 md:px-4 md:py-2 text-oren duration-300 ease-in-out hover:bg-oren hover:text-putih rounded-full;
+}
+
+.followme-link {
+  @apply flex text-putih text-xs md:text-sm font-medium py-2 px-4 hover:bg-biru rounded-md;
+}
+
+.project-item {
+  @apply relative rounded-xl hover:scale-90 duration-300 ease-in-out;
+}
+
+.project-title {
+  @apply absolute duration-300 ease-out opacity-100 z-10;
+}
+
+.project-img {
+  @apply group-hover:scale-125 origin-bottom duration-300 ease-in-out;
+}
+
+.gallery-item {
+  @apply relative top-0 rounded-md md:rounded-lg overflow-hidden duration-300 ease-in-out;
+}
+
+.gallery-img {
+  @apply duration-300 ease-in-out;
+}
+
+.footer-link {
+  @apply hover:text-oren font-semibold relative top-0 hover:-top-[2px] duration-300;
+}
+
+.support-popup.open {
+  @apply scale-100 opacity-100 z-[100];
+}
+
+.link__sosmed-link {
+  @apply p-4 dark:hover:bg-oren/5 hover:bg-putih/75 rounded-xl duration-300 ease-in-out dark:text-oren bg-putih/0 text-oren;
+}
+
+.link__link-item {
+  @apply w-3/4 md:w-2/4 text-sm md:text-base border border-oren/20 dark:text-oren bg-putih/10 text-hitam duration-300 ease-in-out p-4 rounded-xl hover:text-oren hover:bg-putih/75 dark:hover:bg-oren/5 flex justify-between items-center font-medium;
+}
+
+.link__arrow-up {
+  @apply text-oren/75  w-4;
+}
+
+.work__other-project-items {
+  @apply rounded-lg overflow-hidden duration-300 hover:scale-95;
+}
